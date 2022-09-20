@@ -5,5 +5,5 @@ import "./ninja-ui/styles/dropdown.css";
 const tooltip = new Tooltip(document.querySelector(".tooltip"));
 tooltip.init();
 
-const dropdown = new dropDown(document.querySelector(".dropdown-btn"));
+const dropdown = new dropDown(document.querySelector(".dropdown"));
 dropdown.init();
