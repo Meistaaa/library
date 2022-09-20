@@ -1,0 +1,23 @@
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7B6B9E;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-bottom: 10px;
+}
+.dropdown-content{
+    background-color: #7B6B9E;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.rotate{
+    transform: rotate(180deg);
+}
+.dropdown:hover{
+    cursor: pointer;
+}
+.hidden{
+    visibility: hidden;
+}
